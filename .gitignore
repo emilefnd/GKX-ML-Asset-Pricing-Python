@@ -222,3 +222,5 @@ __marimo__/
 Literature/
 SAS/
 .DS_Store
+.venv/
+.DS_Store

@@ -1,0 +1,15 @@
+[project]
+name = "gkx-ml-asset-pricing-python"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "numpy>=2.5.4",
+    "pandas>=3.1.0",
+    "wrds>=3.1.6",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+    "jupyter>=1.1.1",
+]

@@ -224,3 +224,4 @@ SAS/
 .DS_Store
 .venv/
 .DS_Store
+*.parquet

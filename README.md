@@ -2,12 +2,10 @@
 
 Python replication of [Gu, Kelly and Xiu (2020), "Empirical Asset Pricing via Machine Learning"](https://doi.org/10.1093/rfs/hhaa009) (*Review of Financial Studies*). The paper compares machine learning methods for predicting monthly US stock returns from firm characteristics and macroeconomic variables.
 
-## What this repo does
+## What this repo does for now
 
 1) Builds the monthly stock-level panel from CRSP / Compustat
-2) Constructs the firm characteristics and macro predictors used in the paper
-3) Trains and compares [OLS, PLS, PCR, elastic net, random forest, gradient boosting, neural networks] using a rolling train/validation/test split
-4) Evaluates out-of-sample performance (out-of-sample R², [long-short portfolio returns, variable importance]) 
+2) Constructs the firm characteristics and macro predictors used in the paper 
 
 ## Why
 
